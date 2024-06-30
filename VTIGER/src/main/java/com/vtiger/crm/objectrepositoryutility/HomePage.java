@@ -17,7 +17,7 @@ public class HomePage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath = "(//a[text()='Organizations'])[1]")
+	@FindBy(linkText = "Organizations")
 	private WebElement organizationLink;
 
 	@FindBy(xpath = "(//a[text()='Contacts'])[1]")

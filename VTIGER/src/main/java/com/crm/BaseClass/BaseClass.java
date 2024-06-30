@@ -71,6 +71,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		//sdriver=driver;
 		UtilityClassobject.setDriver(driver);
+		System.out.println("Launch browser");
 	}
 
 	@BeforeMethod(groups = {"smokeTest", "regressionTest"})
